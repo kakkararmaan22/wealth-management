@@ -33,5 +33,4 @@ A web application designed to help users track their investments, monitor income
 4. Start the application:
     ```
    npm start
-
 The app will run at http://localhost:3000/.
