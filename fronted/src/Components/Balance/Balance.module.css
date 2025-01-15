@@ -1,0 +1,76 @@
+/* Balance.module.css */
+
+.container {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.container:hover {
+  background-color: #f1f1f1;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.balance {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+
+.negative {
+  color: #d9534f; /* Danger color */
+}
+
+.warning {
+  font-size: 1rem;
+  color: #d9534f; /* Warning text color */
+  margin-top: 10px;
+}
+
+.chart {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 300px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+    margin: 10px;
+    max-width: 100%;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .balance {
+    font-size: 1.25rem;
+    margin-top: 15px;
+  }
+
+  .chart {
+    margin-top: 15px;
+    padding: 8px;
+    height: 200px;
+  }
+}

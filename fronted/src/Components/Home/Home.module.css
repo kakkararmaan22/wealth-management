@@ -1,0 +1,96 @@
+/* Container for the whole page */
+.container {
+  padding: 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the image */
+.image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Heading styling */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 1.25rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* General styling for sections */
+.section {
+  margin-top: 20px;
+  text-align: left;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tips section specific styling */
+.tipsSection,
+.developerSection {
+  background: #f4f4f4; /* Unified background color */
+}
+
+.tipsSection h2,
+.developerSection h2 {
+  font-size: 1.75rem; /* Size for larger screens */
+  color: #333;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ddd; /* Unified underline for heading */
+  padding-bottom: 5px;
+}
+
+.tipsSection ul,
+.developerSection ul {
+  list-style-type: none; /* Remove bullet points */
+  padding-left: 0; /* Remove left padding */
+  color: #666;
+  margin: 0; /* Remove default margin */
+}
+
+.tipsSection li,
+.developerSection li {
+  margin-bottom: 10px; /* Unified spacing between items */
+  line-height: 1.6; /* Unified line height for readability */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .section {
+    padding: 15px;
+  }
+
+  .tipsSection h2,
+  .developerSection h2 {
+    font-size: 1.5rem; /* Adjusted for better readability on smaller screens */
+  }
+}

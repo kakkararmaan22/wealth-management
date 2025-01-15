@@ -1,0 +1,25 @@
+/* Footer.module.css */
+
+.footer {
+    color: #343a40;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f4f4f4;
+    border-radius: 8px; 
+}
+
+.footerContent {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footerContent p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footerContent p:first-child {
+    font-weight: bold;
+}
