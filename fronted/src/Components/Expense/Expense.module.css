@@ -1,0 +1,182 @@
+.container {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem; /* Added margin to create space after the form */
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  color: #555;
+}
+
+.input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  transition: border-color 0.3s;
+}
+
+.input::placeholder {
+  color: #999;
+}
+
+.input:focus {
+  border-color: #dc3545;
+  outline: none;
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.button:hover {
+  background-color: #c82333;
+}
+
+.button:active {
+  background-color: #bd2130;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.historyHeading {
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: #333;
+  margin-top: 2rem;
+}
+
+.historyList {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0; /* Added margin for spacing between the heading and the list */
+}
+
+.historyItem {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 1rem;
+  color: #444;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.historyDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.expenseType {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.expenseInfo {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.expenseName {
+  font-weight: 500;
+}
+
+.expenseAmount {
+  color: #28a745;
+}
+
+.expenseDate {
+  font-size: 0.875rem;
+  color: #777;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.editButton,
+.deleteButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #007bff;
+}
+
+.icon:hover {
+  color: #0056b3;
+}
+
+.totalHeading {
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: #333;
+  margin-top: 2rem;
+}
+
+.noExpenses {
+  font-size: 1.25rem;
+  color: #999;
+}
+
+/* Styles for the Filter by Type dropdown */
+.filterContainer {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.filterLabel {
+  font-size: 1rem;
+  color: #555;
+}
+
+.filterSelect {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.filterSelect:focus {
+  border-color: #007bff;
+  outline: none;
+}

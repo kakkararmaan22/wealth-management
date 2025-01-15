@@ -1,0 +1,137 @@
+.notifiedContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center content vertically */
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  margin: 52px auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.phoneInputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.phoneInputContainer label {
+  font-size: 18px;
+  margin-bottom: 8px;
+  text-align: center; /* Center text */
+}
+
+.phoneInputContainer input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  width: 100%;
+  max-width: 320px;
+  box-sizing: border-box; /* Include padding and border in element's width */
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  gap: 10px; /* Space between buttons */
+  margin-top: 10px;
+}
+
+.phoneSubmitBtn {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.phoneSubmitBtn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.phoneSubmitBtn:active {
+  transform: translateY(0);
+}
+
+.notificationSent {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #28a745;
+  font-weight: bold;
+  text-align: center; /* Center text */
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Slider styling */
+.thresholdContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.thresholdSlider {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 10px;
+  appearance: none; /* Remove default browser styles */
+  height: 5px;
+  background-color: #ddd;
+  outline: none; /* Remove outline */
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.thresholdSlider::-webkit-slider-thumb {
+  appearance: none; /* Remove default browser styles */
+  width: 20px;
+  height: 20px;
+  background-color: #007bff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.thresholdSlider::-webkit-slider-thumb:hover {
+  background-color: #0056b3;
+}
+
+.thresholdContainer span {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.changeNumberBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #dc3545; /* Red color for delete button */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.changeNumberBtn:hover {
+  background-color: #c82333;
+}
