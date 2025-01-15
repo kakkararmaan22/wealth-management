@@ -25,13 +25,13 @@ A web application designed to help users track their investments, monitor income
    ```
    git clone https://github.com/kakkararmaan22/wealth-management.git
 2. Navigate into the project folder:
- ```
-cd wealth-management
+   ```
+   cd wealth-management
 3. Install the dependencies:
- ```
- npm install
+    ```
+    npm install
 4. Start the application:
- ```
-npm start
+    ```
+   npm start
 
 The app will run at http://localhost:3000/.
